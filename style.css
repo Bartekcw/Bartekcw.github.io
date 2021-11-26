@@ -327,47 +327,6 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (min-width: 780px){
-    .nav1 {
-        left: 60px
-    }
-
-    .landingtext1 {
-        position: absolute;
-        left: 60px;
-        top: 178px;
-        width: 550px;
-    }
-    
-    .landingtext2 {
-        position: absolute;
-        left: 60px;
-        top: 300px;
-    }
-    
-    .landingbtn {
-        position: absolute;
-        top: 362px;
-        left: 60px;
-        text-decoration: none;
-    }
-
-    .aboutusbox {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .parentbox {
-        width: 706px;
-        height: 1098px;
-    }
-
-    .ofertabackground {
-        height: 1306px;
-    }
-
-}
-
 @media screen and (min-width: 960px){
     .mainbox {
         width: 960px;
@@ -444,6 +403,9 @@ footer {
         flex-direction: row;
         justify-content: flex-start;
         padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
         height: 550px;
         width: 775px;
         position: absolute;
